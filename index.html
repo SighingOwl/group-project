@@ -13,5 +13,6 @@
     bypassed rule violation 1 - 키 체인에 github 관련 정보 삭제, github global config user.name, user.email 삭제, github 계정에 만료된 personal access token 삭제 
     bypassed rule violation 2 - gh auth logout으로 인증된 관리자 계정 로그아웃
     bypassed rule violation 3 - gh auth login으로 추가된 키 체인에 github 관련 정보 삭제, git-credentials 파일 확인 및 삭제(없었음)
+    bypassed rule violation 4 - 계정 권한 문제로 판단했었지만 계정 권한을 모두 삭제한 이후에도 동일한 문제가 발생하여 계정 권한 문제는 아닌 것으로 판단. class branch rule 대신 branch ruleset을 생성하여 Default branch와 이름에 master가 포함된 branch에 대해 Restrict deletions, Require pull request before merging, Block force pushes를 설정
 </body>
 </html>
